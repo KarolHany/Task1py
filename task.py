@@ -5,7 +5,7 @@ list1 = [100, 200, 300, 'A', 400, 500]
 
 for item in list1:
     if not isinstance(item, int):
-        print("False")
+        print("Not all items are integers")
         break  
 else:
-    print("True") 
+    print("All items are integers") 
